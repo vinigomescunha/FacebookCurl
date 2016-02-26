@@ -36,7 +36,7 @@ Class FBCurl {
 		$data = curl_exec($ch);
 		$decode = json_decode($data);
 		if(isset($decode->id))  
-			return $decode->id
+			return $decode->id;
 	}
 
 	/** *
